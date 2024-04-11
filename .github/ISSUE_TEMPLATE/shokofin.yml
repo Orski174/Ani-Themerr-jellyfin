@@ -34,30 +34,7 @@ body:
     id: fileStructure
     attributes:
       label: File structure of your _Media Library Folder in Jellyfin_/_Import Folder in Shoko Server_.
-      placeholder: "E.g.
-               ```txt <br />
-              ../Anime A/Episode 1.avi <br />
-              ../Anime A/Episode 2.mkv <br />
-              ../Anime A/Episode 3.mp4 <br />
-              ../Anime B/Episode 1.avi <br />
-              ../Anime B/Episode 2.mkv <br />
-              ../Anime B/Episode 3.mp4 <br />
-              ```
-               or
-               ```txt <br />
-              ../Anime A/Season 1/Episode 1.avi <br />
-              ../Anime A/Season 1/Episode 2.mkv <br />
-              ../Anime A/Season 1/Episode 3.mp4 <br />
-              ../Anime A/Season 2/Episode 1.avi <br />
-              ../Anime A/Season 2/Episode 2.mkv <br />
-              ../Anime A/Season 2/Episode 3.mp4 <br />
-              ../Anime B/Season 1/Episode 1.avi <br />
-              ../Anime B/Season 1/Episode 2.mkv <br />
-              ../Anime B/Season 1/Episode 3.mp4 <br />
-              ../Anime B/Season 2/Episode 1.avi <br />
-              ../Anime B/Season 2/Episode 2.mkv <br />
-              ../Anime B/Season 2/Episode 3.mp4 <br />
-              ```"
+      placeholder: "E.g. ../Anime A/Episode 1.avi or ../Anime A/Season 1/Episode 1.avi"
     validations:
       required: true
   - type: textarea
