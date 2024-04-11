@@ -13,7 +13,7 @@ namespace Jellyfin.Plugin.Themerr
     /// </summary>
     public class ThemerrPlugin : BasePlugin<PluginConfiguration>, IHasWebPages
     {
-        private readonly Guid _id = new Guid("84b59a39-bde4-42f4-adbd-c39882cbb772");
+        private readonly Guid _id = new Guid("deab5322-ab43-4d8e-9233-15d7f5f25361");
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ThemerrPlugin"/> class.
@@ -34,12 +34,12 @@ namespace Jellyfin.Plugin.Themerr
         /// <summary>
         /// Gets the name of the plugin.
         /// </summary>
-        public override string Name => "Themerr";
+        public override string Name => "Ani-Themerr";
 
         /// <summary>
         /// Gets the description of the plugin.
         /// </summary>
-        public override string Description => "Downloads Theme Songs";
+        public override string Description => "Downloads Anime Theme Songs";
 
         /// <summary>
         /// Gets the plugin instance id.
