@@ -35,28 +35,28 @@ body:
     attributes:
       label: File structure of your _Media Library Folder in Jellyfin_/_Import Folder in Shoko Server_.
       placeholder: "E.g.
-               ```txt
-              ../Anime A/Episode 1.avi
-              ../Anime A/Episode 2.mkv
-              ../Anime A/Episode 3.mp4
-              ../Anime B/Episode 1.avi
-              ../Anime B/Episode 2.mkv
-              ../Anime B/Episode 3.mp4
+               ```txt <br />
+              ../Anime A/Episode 1.avi <br />
+              ../Anime A/Episode 2.mkv <br />
+              ../Anime A/Episode 3.mp4 <br />
+              ../Anime B/Episode 1.avi <br />
+              ../Anime B/Episode 2.mkv <br />
+              ../Anime B/Episode 3.mp4 <br />
               ```
                or
-               ```txt
-              ../Anime A/Season 1/Episode 1.avi
-              ../Anime A/Season 1/Episode 2.mkv
-              ../Anime A/Season 1/Episode 3.mp4
-              ../Anime A/Season 2/Episode 1.avi
-              ../Anime A/Season 2/Episode 2.mkv
-              ../Anime A/Season 2/Episode 3.mp4
-              ../Anime B/Season 1/Episode 1.avi
-              ../Anime B/Season 1/Episode 2.mkv
-              ../Anime B/Season 1/Episode 3.mp4
-              ../Anime B/Season 2/Episode 1.avi
-              ../Anime B/Season 2/Episode 2.mkv
-              ../Anime B/Season 2/Episode 3.mp4
+               ```txt <br />
+              ../Anime A/Season 1/Episode 1.avi <br />
+              ../Anime A/Season 1/Episode 2.mkv <br />
+              ../Anime A/Season 1/Episode 3.mp4 <br />
+              ../Anime A/Season 2/Episode 1.avi <br />
+              ../Anime A/Season 2/Episode 2.mkv <br />
+              ../Anime A/Season 2/Episode 3.mp4 <br />
+              ../Anime B/Season 1/Episode 1.avi <br />
+              ../Anime B/Season 1/Episode 2.mkv <br />
+              ../Anime B/Season 1/Episode 3.mp4 <br />
+              ../Anime B/Season 2/Episode 1.avi <br />
+              ../Anime B/Season 2/Episode 2.mkv <br />
+              ../Anime B/Season 2/Episode 3.mp4 <br />
               ```"
     validations:
       required: true
